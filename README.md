@@ -13,8 +13,6 @@
 
 ---
 
-## 📁 Research Coverage 
-
 ## 📁 Research Coverage (20종)
 
 ### 🇰🇷 Korea Equities (9종)
@@ -101,44 +99,42 @@
 
 ## 📂 Repository 구조
 Equity-Research-Portfolio/
-│
-├── README.md
-│
-├── 01_Korea_Equities/           (한국 종목 9종 - 5~7월)
-│   ├── 영원무역_NCAV.pdf
-│   ├── 한화생명_Asset_Value.pdf
-│   ├── 맥쿼리인프라_Income.pdf
-│   ├── 대한항공_Event_Driven.pdf
-│   ├── 농심_Defensive.pdf
-│   ├── 카카오뱅크_GARP.pdf
-│   ├── 강원랜드_Monopoly.pdf
-│   ├── 신한지주_Bank.pdf
-│   └── 롯데리츠_REIT.pdf
-│
-├── 02_Global_Equities/          (미국·글로벌 5종 - 6~8월)
-│   ├── Alibaba_China.pdf
-│   ├── NVIDIA_AI.pdf
-│   ├── Netflix_Streaming.pdf
-│   ├── Vale_IronOre.pdf
-│   └── Freeport_Copper.pdf
-│
-├── 03_Theme_Sector/             (테마·섹터 3종 - 7~8월)
-│   ├── 방산주_Sector.pdf
-│   ├── AI인프라_HBM.pdf
-│   └── 은행주_Valuation.pdf
-│
-├── 04_ETF_Macro/                (ETF·매크로 3종 - 8~9월)
-│   ├── 한국ETF_Strategy.pdf
-│   ├── 채권금비트코인_Alternative.pdf
-│   └── 환율전략_FX.pdf
-│
-├── notebooks/                   (R·Python 분석 코드)
-│   ├── 01_ncav_screening.R
-│   ├── 02_valuation_model.R
-│   ├── dacon_ncav_dashboard.R
-│   └── (추후 Python 추가)
-│
-└── data/
+README.md
+01_Korea_Equities/         
+영원무역_NCAV.pdf
+한화생명_Asset_Value.pdf
+맥쿼리인프라_Income.pdf
+대한항공_Event_Driven.pdf
+농심_Defensive.pdf
+카카오뱅크_GARP.pdf
+강원랜드_Monopoly.pdf
+신한지주_Bank.pdf
+롯데리츠_REIT.pdf
+
+02_Global_Equities
+Alibaba_China.pdf
+NVIDIA_AI.pdf
+Netflix_Streaming.pdf
+Vale_IronOre.pdf
+Freeport_Copper.pdf
+
+03_Theme_Sector/            
+방산주_Sector.pdf
+AI인프라_HBM.pdf
+은행주_Valuation.pdf
+
+04_ETF_Macro/           
+한국ETF_Strategy.pdf
+채권금비트코인_Alternative.pdf
+환율전략_FX.pdf
+
+notebooks /                   (R·Python 분석 코드)
+01_ncav_screening.R
+02_valuation_model.R
+dacon_ncav_dashboard.R
+(추후 Python 추가)
+
+data/
 └── (원천 데이터 보관)
 
 
@@ -187,4 +183,4 @@ Phase 3: Theme 2종 + ETF 1종 (7~8월)
  한국 ETF 전략
 etc...
 
-## 📂 Repository 구조
+
