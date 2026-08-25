@@ -1,6 +1,6 @@
 # 📊 Equity Research Portfolio
 
-> **"데이터 기반 Bottom-up 리서치: 한국·미국 증시 투자 아이디어 발굴"**
+> **"Top-down 리서치: 한국·미국 증시 투자 아이디어 발굴"**
 
 ---
 
