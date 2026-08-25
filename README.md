@@ -15,41 +15,30 @@
 
 ## 📁 Research Coverage (20종)
 
-## 📁 Research Coverage (47종 — 완료 11 / 진행중 36)
+## 📁 Research Coverage (47종 — 완료 12 / 진행중 36)
 
-### 🇰🇷 Korea Equities (완료 9 / 예정 20)
+### 🇰🇷 Korea Equities (완료 12 / 예정 17)
 
-| 종목 | 섹터 | 핵심 논점 | 상태 |
-|------|------|-----------|------|
-| 영원무역 | 의류제조 | PBR 0.85배 저평가, Scott 턴어라운드 | ✅ 완료 |
-| 한화생명 | 보험 | CSM 순증 전환, PBR 0.26배 저평가 | ✅ 완료 |
-| 맥쿼리인프라 | 인프라펀드 | 배당수익률 6.77%, 차입한도 확대 | ✅ 완료 |
-| 대한항공 | 항공운송 | 아시아나 합병 시너지, 유가 방어력 | ✅ 완료 |
-| 마키나락스 | Physical AI | PSR 밴드+DCF, 성장주 밸류에이션 | ✅ 완료 |
-| 한미반도체 | 반도체장비(후공정) | HBM TC본더 71% 독점, 1분기 쇼크→2분기 반등 | ✅ 완료 |
-| 주성엔지니어링 | 반도체장비(전공정) | 목표가 상향+투자의견 하향, 밸류부담 | ✅ 완료 |
-| 원익IPS | 반도체장비(종합) | 고정비 레버리지, 3형제 중 최고 안정성 | ✅ 완료 |
-| 네이버 | 인터넷플랫폼 | AI Factory, 역대매출+마진정체 | ✅ 완료 |
-| 한화오션 / 에이피알 / 현대자동차 / 삼성전기 / LS ELECTRIC / 두산에너빌리티 / 대한광통신 / LIG디펜스에어로스페이스 / 서진시스템 / HMM / 현대로템 / OCI홀딩스 / 오리온 / 현대모비스 / 에스피지 / HL만도 / 삼성물산 / SK이터닉스 / SK오션플랜트 / 현대제철 | 각 섹터 | - | 🔲 예정 |
+✅ 완료 :  영원무역, 한화생명, 맥쿼리인프라, 대한항공, 마키나락스, 한미반도체, 주성엔지니어링, 원익IPS, 네이버, 대한광통신, 서진시스템, 에스피지, 
+🔲 예정 : 한화오션 / 에이피알 / 현대자동차 / 삼성전기 / LS ELECTRIC / 두산에너빌리티 /  LIG디펜스에어로스페이스 /  HMM / 현대로템 / OCI홀딩스 / 오리온 / 현대모비스, HL만도 / 삼성물산 / SK이터닉스 / SK오션플랜트 / 현대제철 |
+
 
 ### 🌎 Global Equities (완료 2 / 예정 8)
+✅ 완료 :  팔란티어 (PLTR), 알파벳 (GOOGL), 캐터필러,루멘텀홀딩스
+🔲 예정 :  일라이릴리 / GE버노바 / 루멘텀홀딩스 / 유나이티드헬스 / 월마트 / 캐터필러 / 엑슨모빌 / 록히드마틴 
 
-| 종목 | 섹터 | 핵심 논점 | 상태 |
-|------|------|-----------|------|
-| 팔란티어 (PLTR) | AI 소프트웨어 | EV/매출 프리미엄 vs Peer, DCF 괴리 | ✅ 완료 |
-| 알파벳 (GOOGL) | 빅테크/AI | Cloud 82% 가속, PEG 저평가 | ✅ 완료 |
-| 일라이릴리 / GE버노바 / 루멘텀홀딩스 / 유나이티드헬스 / 월마트 / 캐터필러 / 엑슨모빌 / 록히드마틴 | 각 섹터 | - | 🔲 예정 |
 
 ### 🎯 Theme & Sector (예정 4)
-에너지 · 양자컴퓨터 · 광통신 · 로봇 — 전부 🔲 예정 (에너지는 방향성 별도 확인 필요)
+✅ 완료: 양자컴퓨터 · 광통신 · 로봇 
+🔲 예정: 에너지
+
 
 ### 📊 ETF & Macro (예정 4)
-환율전략 · 채권전망 · 크립토 · 2027년 상반기 매크로 전망 — 전부 🔲 예정
+🔲 예정: 환율전략 · 채권전망 · 크립토 · 2027년 상반기 매크로 전망
 
 ---
 
 ## 🛠️ 기술 스택
-
 **언어**: R , Python , SQL  
 **R 패키지**: quantmod, TTR, PerformanceAnalytics, tidyverse, ggplot2  
 **분석 기법**:
@@ -63,13 +52,12 @@
 ---
 
 ## 📌 주요 성과
-
 ✅ **실전 투자**: KOSPI 가치주·성장주 + 미국 원자재 ETF 포트폴리오 운용 중  
 ✅ **DB금융투자 투자대회**: 팀장, 데이터 분석, 퀀텀 (2026.06~08)  
 ✅ **자격증**: 
 - 감정평가사 1차 합격 (2024,2026)
 - SQLD (2026.05)
-- TOEIC 850+(2026.06)
+- TOEIC 850(2026.07)
 - 금융투자분석사(2026.07)
 - 투자자산운용사 (2026.08)
 - ADsP (2026.08)
@@ -83,65 +71,10 @@
 
 ## 💡 
 1. **실전 투자 검증** → 직접 투자하며 분석 역량 확인  
-2. **Sector-Agnostic** → 가치/성장/테마 불문 Bottom-up 접근  
+2. **Sector-Agnostic** → 가치/성장/테마 불문 TOP-DOWN 접근  
 3. **글로벌 커버리지** → 한국·미국·원자재·외환 다각화  
 4. **통계적 검증** → R 기반 정량분석, 회귀모델 활용  
 5. **실물자산 이해** → 감평 1차 합격, 리츠·인프라 NAV 분석 강점
-
-
-## 📂 Repository 구조
-Equity-Research-Portfolio/
-README.md
-01_Korea_Equities/         
-영원무역_NCAV.pdf
-한화생명_Asset_Value.pdf
-맥쿼리인프라_Income.pdf
-대한항공_Event_Driven.pdf
-농심_Defensive.pdf
-카카오뱅크_GARP.pdf
-강원랜드_Monopoly.pdf
-신한지주_Bank.pdf
-롯데리츠_REIT.pdf
-
-02_Global_Equities
-Alibaba_China.pdf
-NVIDIA_AI.pdf
-Netflix_Streaming.pdf
-Vale_IronOre.pdf
-Freeport_Copper.pdf
-
-03_Theme_Sector/            
-방산주_Sector.pdf
-AI인프라_HBM.pdf
-은행주_Valuation.pdf
-
-04_ETF_Macro/           
-한국ETF_Strategy.pdf
-채권금비트코인_Alternative.pdf
-환율전략_FX.pdf
-
-notebooks /                   (R·Python 분석 코드)
-01_ncav_screening.R
-02_valuation_model.R
-dacon_ncav_dashboard.R
-(추후 Python 추가)
-
-data/
-└── (원천 데이터 보관)
-
-
-
-## 🚀 Quick Start
-
-```bash
-# Repository 클론
-git clone https://github.com/your-username/NCAV-Deep-Value-Research.git
-
-# 패키지 설치 
-install.packages(c("quantmod","tidyverse","ggplot2"))
-```
-
----
 
 ## 📧 Contact
 
@@ -152,27 +85,4 @@ GitHub: github.com/hovever0105
 
 ## 📜 License
 허락없는 복제 및 유포 금지합니다. 
-
-
-🔖 작업 로드맵
-Phase 1: Deep-Value
- Repository 세팅
- 영원무역 NCAV 분석
- 한화생명 저PBR 보험주
- 금호석유 극단 저평가 
- etc...
-
-Phase 2: Growth 2종 + Deep-Value 2종
- 카카오뱅크 GARP
- 에코프로비엠 2차전지
- Intel Turnaround
- Alibaba 중국 회복
-etc...
-
-Phase 3: Theme 2종 + ETF 1종 (7~8월)
- 방산주 섹터 분석
- AI 인프라 한미 비교
- 한국 ETF 전략
-etc...
-
 
