@@ -13,17 +13,17 @@
 
 ---
 
-## 📁 Research Coverage (20종)
 
-## 📁 Research Coverage (47종 — 완료 22 / 진행중 25)
+## 📁 Research Coverage (48종 — 완료 40/ 진행중 8)
 
-### 🇰🇷 Korea Equities (완료 13/ 예정 16)
+### 🇰🇷 Korea Equities (완료 27/ 예정 2)
 
-✅ 완료 :  영원무역, 한화생명, 맥쿼리인프라, 대한항공, 마키나락스, 한미반도체, 주성엔지니어링, 원익IPS, 네이버, 대한광통신, 서진시스템, 에스피지, LS ELECTRIC, 두산에너빌리티, OCI홀딩스, 현대제철, SK이터닉스, 삼성물산, 한화오션, 현대자동차 / 삼성전기  /  LIG디펜스에어로스페이스 /  HMM / 현대로템, 현대모비스, HL만도 ,SK오션플랜트
-🔲 예정 :  에이피알 / OCI홀딩스 / 오리온 
+✅ 완료 :  영원무역, 한화생명, 맥쿼리인프라, 대한항공, 마키나락스, 한미반도체, 주성엔지니어링, 원익IPS, 네이버, 대한광통신, 서진시스템, 에스피지, LS ELECTRIC, 두산에너빌리티, OCI홀딩스, 현대제철, SK이터닉스, 삼성물산, 한화오션, 현대자동차 / 삼성전기  /  LIG디펜스에어로스페이스 /  HMM / 현대로템, 현대모비스, HL만도 ,SK오션플랜트,OCI홀딩스
+
+🔲 예정 :  에이피알 / 오리온 
 
 
-### 🌎 Global Equities (완료 5 / 예정 8)
+### 🌎 Global Equities (완료 9 / 예정 2)
 ✅ 완료 :  팔란티어 (PLTR), 알파벳 (GOOGL), 캐터필러,루멘텀홀딩스, GE버노바, 엑슨모빌, 일라이릴리,  유나이티드헬스 ,록히드마틴 
 🔲 예정 : 월마트 / 캐터필러 
 
@@ -39,7 +39,6 @@
 
 ## 🛠️ 기술 스택
 **언어**: R , Python , SQL  
-**R 패키지**: quantmod, TTR, PerformanceAnalytics, tidyverse, ggplot2  
 **분석 기법**:
 - Valuation: DCF, NAV, PER/PBR/PSR Multiples, EV/EBITDA
 - Quantitative: NCAV, Graham Number, ROE Decomposition, DuPont Analysis
@@ -65,7 +64,7 @@
 
 
 ✅ **고려대학교(안암, 서울) 통계학 심화전공** 졸업: 정량분석 역량   
-✅ **코딩**: R 기반 데이터 분석, Python 
+✅ **코딩**: R 기반 데이터 분석, Python 기반 퀀트 및 계량분석 
 
 
 
