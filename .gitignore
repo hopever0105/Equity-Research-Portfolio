@@ -47,3 +47,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# valuation_models: API 키 · 대용량 캐시 · 파이썬 캐시
+.env
+__pycache__/
+corpCode.xml
