@@ -17,7 +17,7 @@
 | 목적 | 한국·글로벌 증시 전 섹터 투자 아이디어 발굴 및 실전 검증 |
 | 방법론 | 정량분석(DCF, NAV, Multiples) + 정성판단(산업 구조, 경쟁력) |
 | 기간 | 2026.05 ~ 진행 중 |
-| 데이터 | FnGuide, FactSet, Bloomberg, KRX, SEC Filings, Yahoo Finance |
+| 데이터 | DART(OpenDART API), 한국은행 ECOS, FnGuide, FactSet, Bloomberg, KRX, SEC Filings, Yahoo Finance |
 
 ---
 
@@ -25,20 +25,25 @@
 
 | 구분 | 완료 | 예정 |
 |---|:---:|:---:|
-| 🇰🇷 Korea Equities | 28 | 1 |
+| 🇰🇷 Korea Equities | 29 | 1 |
 | 🌎 Global Equities | 9 | 1 |
 | 🎯 Theme & Sector | 4 | 0 |
 | 📊 ETF & Macro | 0 | 4 |
-| **합계** | **41** | **6** |
+| **합계** | **42** | **6** |
+
+### 🆕 최근 업데이트 — 공시 기반 독자 밸류에이션 (계산 코드 공개)
+
+증권사 목표주가는 계산에 넣지 않고 DART 공시 · 한국은행 ECOS · 시세 DB로 직접 산출했습니다. 가정과 민감도는 리포트와 코드에 함께 있습니다.
+
+| 기업 | 기준일 | 투자의견 · 목표주가 | 방법 | 리포트 · 코드 |
+|---|---|---|---|---|
+| 케이뱅크 (279570) | 2026.10.27 | SELL · 4,800원 (이익 추정 시나리오 3,900원) | 공모가 산식 단계별 재계산 → 초과자본 분리 적정 PBR + PBR–ROE 회귀, 2026E~2028E 이익 추정 · RIM | `01_Korea_Equities/케이뱅크_리서치리포트_2026.pdf` · `valuation_models/케이뱅크` |
+| 현대자동차 (005380) | 2026.10.06 | SELL · 325,000원 | 본업 PER · PBR 50:50 + 보스턴다이내믹스 SOTP, 환율 민감도 | `01_Korea_Equities/현대자동차_리서치리포트_2026_개정판.pdf` |
 
 ### 🇰🇷 Korea Equities
 
-✅ **완료 (28)**
-영원무역 · 한화생명 · 맥쿼리인프라 · 대한항공 · 마키나락스 · 한미반도체 · 주성엔지니어링 · 원익IPS · 네이버 · 대한광통신 · 서진시스템 · 에스피지 · LS ELECTRIC · 두산에너빌리티 · OCI홀딩스 · 현대제철 · SK이터닉스 · 삼성물산 · 한화오션 · 현대자동차 · 삼성전기 · LIG디펜스에어로스페이스 · HMM · 현대로템 · 현대모비스 · HL만도 · SK오션플랜트 · 오리온
-
-📝 **개정** 현대자동차 (2026.10.06 기준, 본업 PER·PBR + 로봇(BD) SOTP, 환율 민감도) → `01_Korea_Equities/현대자동차_리서치리포트_2026_개정판.pdf`
-
-🆕 **공모주 검증** 케이뱅크 (2026.10.27 기준, 공모가 산식 단계별 재계산 + 초과자본 분리 적정 PBR · PBR–ROE 회귀, 이익 추정 시나리오 병기) → `01_Korea_Equities/케이뱅크_리서치리포트_2026.pdf` · 코드 `valuation_models/케이뱅크`
+✅ **완료 (29)**
+영원무역 · 한화생명 · 맥쿼리인프라 · 대한항공 · 마키나락스 · 한미반도체 · 주성엔지니어링 · 원익IPS · 네이버 · 대한광통신 · 서진시스템 · 에스피지 · LS ELECTRIC · 두산에너빌리티 · OCI홀딩스 · 현대제철 · SK이터닉스 · 삼성물산 · 한화오션 · 현대자동차 · 삼성전기 · LIG디펜스에어로스페이스 · HMM · 현대로템 · 현대모비스 · HL만도 · SK오션플랜트 · 오리온 · 케이뱅크
 
 🔲 **예정 (1)** 에이피알
 
@@ -64,11 +69,12 @@
 | 구분 | 내용 |
 |---|---|
 | 언어 | R, Python, SQL |
-| Valuation | DCF, NAV, PER/PBR/PSR Multiples, EV/EBITDA |
+| Valuation | DCF, NAV, RIM(잔여이익모델), PER/PBR/PSR Multiples, EV/EBITDA, SOTP, 적정 PBR((ROE−g)/(COE−g)) |
 | Quantitative | NCAV, Graham Number, ROE Decomposition, DuPont Analysis |
-| Statistical | 회귀분석, VIF, 상관관계 분석 |
-| 시각화 | ggplot2, R Shiny |
-| 데이터 | FnGuide, Yahoo Finance API, Quandl |
+| Statistical | 회귀분석(PBR–ROE 등), VIF, 상관관계 분석, 민감도 분석 |
+| 시각화 | ggplot2, R Shiny, matplotlib |
+| 데이터 | OpenDART API, 한국은행 ECOS, MySQL 시세 DB, FnGuide, Yahoo Finance API, Quandl |
+| 코드 | `valuation_models/` — 모델(model.py) · 리포트 생성(make_full_report.py) · 공시 수집 도구(tools/) |
 
 ---
 
