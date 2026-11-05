@@ -1,4 +1,4 @@
-"""OpenDART 수집 도구 (재사용용). 사용: python -m valuation_models.tools.dart 오리온 271560"""
+"""OpenDART 수집 도구 (재사용용). 사용: python -m valuation.tools.dart 오리온 271560"""
 import json, sys, time, zipfile, io, xml.etree.ElementTree as ET
 from pathlib import Path
 import requests, pandas as pd
@@ -48,6 +48,7 @@ def collect(name, stock_code, years, out):
     pd.concat(frames).to_csv(out / "dart_fs_raw.csv", index=False, encoding="utf-8-sig")
     disclosures(corp, "20240101", "20261231").to_csv(out / "dart_major_disclosures.csv", index=False, encoding="utf-8-sig")
     disclosures(corp, "20240101", "20261231", "I").to_csv(out / "dart_disclosures_issuer.csv", index=False, encoding="utf-8-sig")
+    disclosures(corp, "20210101", "20261231", "A").to_csv(out / "dart_periodic.csv", index=False, encoding="utf-8-sig")
     (out / "corp.json").write_text(json.dumps({"corp_code": corp, "name": nm, "stock_code": stock_code}, ensure_ascii=False))
     return corp
 

@@ -1,0 +1,13 @@
+{
+  "note": "SEC companyfacts(XBRL), 2026-11-04까지 제출분. TTM = 최근 4개 분기 합(연간 − 같은 기간 누적으로 빠진 분기 계산). g = 최근 분기 YoY. 단위 $. 2026-11-05 수집(앱 브라우저).",
+  "peers": {
+    "COHR": {"name": "Coherent", "ttm_end": "2026-09-30", "rev_ttm": 7907100000, "g": 0.499, "cfo_ttm": -59122000, "capex_ttm": 1774510000, "sbc_ttm": 216711000,
+             "cash": 1552929000, "sti": 200000000, "lti": 0, "debt": 4000598000, "shares": 196958669, "shares_date": "2026-11-02"},
+    "CIEN": {"name": "Ciena", "ttm_end": "2026-08-01", "rev_ttm": 6020894000, "g": 0.370, "cfo_ttm": 1054683000, "capex_ttm": 240321000, "sbc_ttm": 212007000, "op_ttm": 738953000,
+             "cash": 2445708000, "sti": 184293000, "lti": 213553000, "debt": 3229843000, "shares": 141808525, "shares_date": "2026-08-28"},
+    "ANET": {"name": "Arista Networks", "ttm_end": "2026-09-30", "rev_ttm": 11890100000, "g": 0.585, "cfo_ttm": 5239300000, "capex_ttm": 187332000, "sbc_ttm": 512500000, "op_ttm": 5211100000,
+             "cash": 2288100000, "sti": 12070900000, "lti": 0, "debt": 0, "shares": 1263402335, "shares_date": "2026-10-29"},
+    "MRVL": {"name": "Marvell Technology", "ttm_end": "2026-08-01", "rev_ttm": 9450300000, "g": 0.365, "cfo_ttm": 2200300000, "capex_ttm": 470200000, "sbc_ttm": 828900000, "op_ttm": 1561300000,
+             "cash": 3932800000, "sti": 0, "lti": 0, "debt": 4962900000, "shares": 876900000, "shares_date": "2026-08-21"}
+  }
+}

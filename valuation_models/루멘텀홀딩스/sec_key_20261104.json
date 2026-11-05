@@ -1,0 +1,37 @@
+{
+  "note": "SEC EDGAR companyfacts(XBRL)·8-K Ex.99.1·8-K Item 1.01에서 2026-11-04까지 제출된 값만. 회계연도 6월 말 마감(FY2027 1Q = 2026-06-28~2026-09-26). 단위 $M(주식수 백만주, EPS $). 2026-11-05 앱 브라우저로 수집.",
+  "sources": {
+    "10-K FY2026": "0001628280-26-057358 (2026-08-17)",
+    "10-Q 1Q FY27": "0001628280-26-069615 (2026-11-03) lite-20260926.htm",
+    "8-K 1Q FY27 실적": "0001628280-26-068655 (2026-11-02) lite_ex991xq1fy27.htm",
+    "8-K 마벨 합병계약": "0001193125-26-442758 (2026-11-02, 계약일 11-01) d163169d8k.htm, Ex.99.1 공동 보도자료"
+  },
+  "annual": {
+    "revenue": {"FY2023": 1767.0, "FY2024": 1359.2, "FY2025": 1645.0, "FY2026": 3014.0},
+    "gaap_op_income": {"FY2024": -434.0, "FY2025": -180.1, "FY2026": 524.8},
+    "cfo": {"FY2024": 24.7, "FY2025": 126.3, "FY2026": 751.4},
+    "capex": {"FY2024": 133.0, "FY2025": 231.0, "FY2026": 451.3},
+    "sbc": {"FY2024": 128.8, "FY2025": 177.2, "FY2026": 170.2},
+    "nongaap": {"FY2025": {"eps": 2.06, "op_margin": 0.097}, "FY2026": {"eps": 8.67, "op_margin": 0.298}}
+  },
+  "quarterly": {
+    "revenue": {"1Q FY26": 533.8, "2Q FY26": 665.5, "3Q FY26": 808.4, "4Q FY26": 1006.3, "1Q FY27": 1262.6},
+    "nongaap_op_margin": {"1Q FY26": 0.187, "2Q FY26": 0.252, "3Q FY26": 0.322, "4Q FY26": 0.366, "1Q FY27": 0.423},
+    "gaap_gm": {"4Q FY26": 0.474, "1Q FY27": 0.510},
+    "nongaap_gm": {"4Q FY26": 0.504, "1Q FY27": 0.532},
+    "1Q FY27": {"gaap_op_income": 359.8, "gaap_op_margin": 0.285, "net_income": 360.3, "eps_diluted": 3.54, "nongaap_net_income": 461.1, "nongaap_eps": 4.57,
+                "components": 754.2, "systems": 508.4, "components_yoy": 0.989, "systems_yoy": 2.288, "cfo": 267.7, "capex": 229.8, "sbc": 135.3},
+    "1Q FY26 segments": {"components": 379.2, "systems": 154.6}
+  },
+  "balance_2026_09_26": {"cash": 1272.2, "short_term_investments": 707.4, "equity": 4572.6, "debt_current": 1360.3, "debt_noncurrent": 39.3,
+                         "shares_cover_2026-10-28": 90.7, "diluted_shares_nongaap_1Q": 100.9},
+  "guide_2Q_FY27": {"revenue": [1575, 1625], "nongaap_op_margin": [0.45, 0.46], "nongaap_eps": [5.90, 6.20]},
+  "guide_1Q_FY27_at_orig": {"revenue": [1225, 1275], "nongaap_op_margin": [0.395, 0.405], "nongaap_eps": [4.05, 4.35]},
+  "business_1Q_FY27": "두 번째 대형 NPO/CPO 수주(구매 약정 $5B 초과), OCS 수요 가시성 확대 — CEO 코멘트(보도자료)",
+  "merger": {"acquirer": "Marvell Technology (MRVL)", "signed": "2026-11-01", "announced": "2026-11-02", "exchange_ratio": 4.5, "form": "전액 주식",
+             "implied_per_share_1028": 1132, "implied_ev_bn": 115, "premium_unaffected_1028": 0.239, "lite_holders_pro_forma": 0.33,
+             "close_expected": "2028년 상반기(역년)", "conditions": "양사 주주총회, HSR 등 규제 승인, S-4 효력",
+             "fee_marvell_to_lite": 5800, "fee_lite_to_marvell": 2900, "fee_regulatory_to_lite": 3200, "synergy_run_rate": "연 $1B 이상 비용 시너지",
+             "preferred": "NVIDIA Series A 전환우선주는 전환주식수 × 4.5 MRVL 또는 MRVL Series B 우선주 선택"},
+  "rf_ust10y": {"2026-11-04": 4.894, "source": "yfinance ^TNX (valuation/tools/macro_2026-11-05.json)"}
+}

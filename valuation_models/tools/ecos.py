@@ -1,5 +1,5 @@
 """한국은행 ECOS 일별 시계열 수집 (재사용용). 키 없이 'sample' 키(요청당 10행)로 10일 단위로 나눠 받는다.
-사용: python -m valuation_models.tools.ecos 731Y001 0000001 20250101 20261006 out.csv   (원/달러 매매기준율)
+사용: python -m valuation.tools.ecos 731Y001 0000001 20250101 20261006 out.csv   (원/달러 매매기준율)
       817Y002 010210000 = 국고채(10년)
 """
 import sys, time

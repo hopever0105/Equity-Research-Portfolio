@@ -1,0 +1,38 @@
+{
+  "note": "SEC EDGAR companyfacts(XBRL)·10-Q 표지·8-K Ex.99.1에서 2026-11-04까지 제출된 값만. 단위 $M(주식수 백만주, EPS $). 2026-11-05 앱 브라우저로 수집.",
+  "sources": {
+    "10-K FY2025": "0001321655-26-000011 (2026-02-17)",
+    "10-Q 2Q26": "0001321655-26-000041 (2026-08-04)",
+    "10-Q 3Q26": "0001321655-26-000048 (2026-11-03) pltr-20260930.htm",
+    "8-K 3Q26 실적": "0001321655-26-000045 (2026-11-02) a2026q3ex991pressrelease.htm"
+  },
+  "annual": {
+    "revenue": {"2023": 2225.0, "2024": 2865.5, "2025": 4475.4},
+    "gaap_op_income": {"2023": 120.0, "2024": 310.4, "2025": 1414.0},
+    "net_income": {"2023": 209.8, "2024": 462.2, "2025": 1625.0},
+    "eps_diluted": {"2023": 0.09, "2024": 0.19, "2025": 0.63},
+    "sbc": {"2023": 475.9, "2024": 691.6, "2025": 684.0},
+    "cfo": {"2023": 712.2, "2024": 1153.9, "2025": 2134.5},
+    "capex": {"2023": 15.1, "2024": 12.6, "2025": 33.9}
+  },
+  "quarterly": {
+    "revenue": {"3Q24": 725.5, "4Q24": 827.5, "1Q25": 883.9, "2Q25": 1003.7, "3Q25": 1181.1, "4Q25": 1406.8, "1Q26": 1632.6, "2Q26": 1935.5, "3Q26": 2313.4},
+    "gaap_op_income": {"3Q25": 393.3, "4Q25": 575.4, "1Q26": 754.0, "2Q26": 912.0, "3Q26": 1084.8},
+    "net_income": {"3Q25": 475.6, "4Q25": 608.7, "1Q26": 870.5, "2Q26": 1061.9, "3Q26": 1128.0},
+    "eps_diluted": {"3Q25": 0.18, "4Q25": 0.23, "1Q26": 0.34, "2Q26": 0.41, "3Q26": 0.44},
+    "sbc": {"4Q25": 196.4, "1Q26": 201.6, "2Q26": 265.2, "3Q26": 318.9},
+    "diluted_shares_wavg": {"1Q26": 2570.9, "2Q26": 2568.7, "3Q26": 2573.9}
+  },
+  "ttm_3Q26": {"revenue": 7288.3, "revenue_prev": 3896.2, "gaap_op_income": 3326.2, "net_income": 3669.1, "eps_diluted": 1.42, "cfo": 4097.2, "capex": 43.2, "sbc": 982.1},
+  "balance_2026_09_30": {"cash": 3619.4, "marketable_securities": 6942.1, "equity": 11228.0, "debt": 0.0, "shares_outstanding": 2409.5, "shares_date": "2026-10-26 (Class A 2,306.7 + B 101.8 + F 1.0)"},
+  "balance_2025_12_31": {"cash": 1423.8, "marketable_securities": 5753.2, "equity": 7387.3},
+  "press_release_3Q26": {
+    "us_revenue": 1937, "us_commercial": 984, "us_commercial_yoy": 1.48, "us_government": 953, "us_government_yoy": 0.96,
+    "adj_op_income": 1426.8, "adj_op_margin": 0.62, "cfo": 1204.6, "adj_fcf": 1216.1, "rule_of_40": 158,
+    "tcv": 2918, "us_comm_tcv": 1463, "us_comm_rdv": 6517, "deals_1m": 212, "cash_and_treasuries": 10400,
+    "guide_4Q26": {"revenue": [2649, 2653], "adj_op_income": [1640, 1644]},
+    "guide_FY26": {"revenue": [8530, 8534], "us_commercial_min": 3559, "adj_op_income": [5245, 5249], "adj_fcf": [4800, 5000]}
+  },
+  "press_release_2Q26_guide_FY26": {"revenue": [8150, 8158], "adj_fcf": [4500, 4700], "us_commercial_min": 3424},
+  "rf_ust10y": {"2026-11-04": 4.894, "source": "yfinance ^TNX (valuation/tools/macro_2026-11-05.json)"}
+}

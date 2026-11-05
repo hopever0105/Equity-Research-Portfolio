@@ -1,5 +1,5 @@
 """stock_db(kor_price) 조회 도구 (재사용용, KRX 요청 없음).
-사용: python -m valuation_models.tools.price 마키나락스 477850 2026-05-01
+사용: python -m valuation.tools.price 마키나락스 477850 2026-05-01
 """
 import sys
 import warnings
