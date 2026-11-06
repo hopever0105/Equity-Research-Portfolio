@@ -53,6 +53,8 @@ def price_chart(dates, close, tp, out, title, unit="원", alt=None):
             a.axhline(v, color="#7F7F7F", ls=":", lw=.8)
             a.text(dates[int(len(dates) * .03)], v, f" {lab} {fmt_px(v, unit)}", fontsize=5.2, color="#595959", va="bottom")
     a.set_title(title, fontsize=7); ax_clean(a)
+    from matplotlib.ticker import FuncFormatter
+    a.yaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{v:,.0f}"))   # 1e6 같은 지수 표기 방지 (2026-11-06)
     a.xaxis.set_major_locator(mdates.MonthLocator(bymonth=(1, 4, 7, 10))); a.xaxis.set_major_formatter(mdates.DateFormatter("%y.%m"))
     plt.tight_layout(); plt.savefig(out); plt.close()
 
