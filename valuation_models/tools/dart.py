@@ -45,7 +45,8 @@ def collect(name, stock_code, years, out):
             if not d.empty:
                 frames.append(d)
             time.sleep(0.2)
-    pd.concat(frames).to_csv(out / "dart_fs_raw.csv", index=False, encoding="utf-8-sig")
+    if frames:  # 투자회사(인프라펀드 등)는 XBRL 재무제표가 없어 빈 결과 → 공시 원문으로 대신
+        pd.concat(frames).to_csv(out / "dart_fs_raw.csv", index=False, encoding="utf-8-sig")
     disclosures(corp, "20240101", "20261231").to_csv(out / "dart_major_disclosures.csv", index=False, encoding="utf-8-sig")
     disclosures(corp, "20240101", "20261231", "I").to_csv(out / "dart_disclosures_issuer.csv", index=False, encoding="utf-8-sig")
     disclosures(corp, "20210101", "20261231", "A").to_csv(out / "dart_periodic.csv", index=False, encoding="utf-8-sig")

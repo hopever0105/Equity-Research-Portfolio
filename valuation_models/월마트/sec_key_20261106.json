@@ -1,0 +1,42 @@
+{
+  "note": "SEC EDGAR companyfacts(XBRL)와 8-K Ex.99.1(2026-08-20 2Q FY27 보도자료)에서 2026-11-06까지 제출된 값만. 회계연도 2월~1월(FY27 = 2026-02~2027-01). 단위 $M(주식수 백만주, EPS $). 2026-11-08 앱 브라우저로 수집. 3Q FY27 실적은 기준일 이후(11월 중순) 발표라 쓰지 않음.",
+  "sources": {
+    "10-K FY26": "0000104169-26-000055 (2026-03-13)",
+    "10-Q 1Q FY27": "0000104169-26-000102 (2026-05-29)",
+    "10-Q 2Q FY27": "0000104169-26-000154 (2026-08-28)",
+    "8-K 2Q FY27 실적": "0000104169-26-000145 (2026-08-20) earningsreleasefy27q2.htm"
+  },
+  "annual": {
+    "revenue": {"FY23": 611289, "FY24": 648125, "FY25": 680985, "FY26": 713163},
+    "op_income": {"FY23": 20428, "FY24": 27012, "FY25": 29348, "FY26": 29825},
+    "net_income": {"FY23": 11680, "FY24": 15511, "FY25": 19436, "FY26": 21893},
+    "cfo": {"FY23": 28841, "FY24": 35726, "FY25": 36443, "FY26": 41565},
+    "capex": {"FY23": 16857, "FY24": 20606, "FY25": 23783, "FY26": 26642},
+    "dividends": {"FY23": 6114, "FY24": 6140, "FY25": 6688, "FY26": 7507},
+    "buyback": {"FY23": 9920, "FY24": 2779, "FY25": 4494, "FY26": 8088},
+    "diluted_shares_wavg": {"FY24": 8108, "FY25": 8081, "FY26": 8022},
+    "adj_eps_fy26": 2.64, "adj_op_income_fy26": 31000, "net_sales_fy26": 706400,
+    "note": "FY24부터 3:1 액면분할 반영 주식수"
+  },
+  "quarterly": {
+    "revenue": {"1Q FY26": 165609, "2Q FY26": 177402, "3Q FY26": 179496, "4Q FY26": 190656, "1Q FY27": 177751, "2Q FY27": 187937},
+    "op_income": {"1Q FY26": 7135, "2Q FY26": 7286, "3Q FY26": 6696, "4Q FY26": 8708, "1Q FY27": 7493, "2Q FY27": 9383},
+    "net_income": {"1Q FY26": 4487, "2Q FY26": 7026, "3Q FY26": 6143, "4Q FY26": 4237, "1Q FY27": 5330, "2Q FY27": 6366},
+    "diluted_shares_wavg": {"1Q FY27": 7999, "2Q FY27": 7978}
+  },
+  "q2_fy27_press": {
+    "rev_growth": 0.059, "rev_growth_cc": 0.051, "op_growth": 0.288, "adj_op_growth_cc": 0.174,
+    "gaap_eps": 0.80, "adj_eps": 0.81, "ecommerce_growth": 0.23, "ads_growth": 0.38, "membership_growth": 0.17,
+    "us_comp": 0.026, "roi": 0.154,
+    "op_note": "2Q 영업이익에 관세 환급 효과 포함, 하반기 가격 투자로 재투입 예정",
+    "cash": 11500, "total_debt": 57200, "cfo_ytd": 19700, "fcf_ytd": 5500, "buyback_ytd": 5100, "buyback_remaining": 25100
+  },
+  "guidance_fy27_as_of_20260820": {
+    "net_sales_cc": [0.04, 0.05], "adj_op_income_cc": [0.07, 0.085], "adj_eps": [2.80, 2.87], "tax_rate": [0.235, 0.245], "capex_pct_sales": 0.04,
+    "q3": {"net_sales_cc": [0.03, 0.0375], "op_income_cc": [0.02, 0.04], "adj_eps": [0.62, 0.64]},
+    "original_20260219": {"net_sales_cc": [0.035, 0.045], "adj_op_income_cc": [0.06, 0.08], "adj_eps": [2.75, 2.85]}
+  },
+  "balance_20260731": {"cash": 11529, "short_borrow": 10479, "ltd": 36462, "ltd_current": 3470, "op_lease_nc": 14798, "fin_lease_nc": 5952, "equity": 98238, "nci": 6268},
+  "shares_outstanding": {"2026-08-26": 7933.7},
+  "price": {"2026-11-06": 125.52}
+}
