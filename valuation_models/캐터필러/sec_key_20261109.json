@@ -1,0 +1,38 @@
+{
+ "note": "SEC EDGAR companyfacts(XBRL)·10-Q 3Q26(2026-11-04)·8-K 3Q26 보도자료(2026-10-29)에서 2026-11-09까지 제출된 값만. 단위 $M(주식수 백만주, EPS $). 2026-11-10 앱 브라우저로 수집(SEC가 연락처 없는 스크립트 요청을 막음).",
+ "sources": {"10-Q 2Q26": "2026-08-05", "8-K 3Q26 실적": "0000018230-26-000052 (2026-10-29) ex991toformcat3q2026earnin.htm", "10-Q 3Q26": "0000018230-26-000057 (2026-11-04)", "8-K 10-15": "Resource Industries 그룹 사장 교체(Denise Johnson 은퇴, Derrick York 11-01 선임)", "8-K 09-01": "1.01·2.03 신용공여 계약(2026-08-27)"},
+ "annual": {
+  "revenue": {"2022": 59427, "2023": 67060, "2024": 64809, "2025": 67589},
+  "op_income": {"2022": 7904, "2023": 12966, "2024": 13072, "2025": 11151},
+  "net_income": {"2022": 6705, "2023": 10335, "2024": 10792, "2025": 8884},
+  "eps_diluted": {"2022": 12.64, "2023": 20.12, "2024": 22.05, "2025": 18.81},
+  "cfo": {"2023": 12885, "2024": 12035, "2025": 11739},
+  "capex": {"2023": 1597, "2024": 1988, "2025": 2821},
+  "da": {"2023": 2144, "2024": 2153, "2025": 2262},
+  "buyback": {"2023": 4975, "2024": 7697, "2025": 5190},
+  "dividends": {"2023": 2563, "2024": 2646, "2025": 2749},
+  "diluted_shares_wavg": {"2023": 513.6, "2024": 489.4, "2025": 472.3}
+ },
+ "quarterly": {
+  "revenue": {"1Q25": 14249, "2Q25": 16569, "3Q25": 17638, "4Q25": 19133, "1Q26": 17415, "2Q26": 20543, "3Q26": 20682},
+  "op_income": {"1Q25": 2579, "2Q25": 2860, "3Q25": 3052, "4Q25": 2660, "1Q26": 3085, "2Q26": 4295, "3Q26": 4214},
+  "eps_diluted": {"1Q25": 4.20, "2Q25": 4.62, "3Q25": 4.88, "4Q25": 5.12, "1Q26": 5.47, "2Q26": 7.77, "3Q26": 7.13},
+  "diluted_shares_wavg": {"1Q26": 465.8, "2Q26": 462.5, "3Q26": 460.9},
+  "note": "4Q25 = 연간 − 9M. 3Q26 영업이익에 IEEPA 관세 환급 128 포함(9M 520)"
+ },
+ "ytd_9m26": {"revenue": 58640, "op_income": 11594, "eps_diluted": 20.36, "cfo": 10593, "capex": 2012, "da": 1826, "buyback": 7745, "dividends": 2148, "mpe_cfo": 11534, "mpe_capex": 2009, "mpe_fcf": 9525, "mpe_fcf_9m25": 5801, "ieepa_recovery": 520},
+ "q3_26_press": {
+  "revenue": 20682, "rev_growth": 0.17, "volume": 2207, "price_realization": 663, "op_margin": 0.204, "adj_op_margin": 0.206, "eps": 7.13, "adj_eps": 7.20, "adj_eps_3q25": 4.95, "ieepa_recovery": 128, "enterprise_cfo": 4400, "buyback": 1200, "dividends": 700, "tax_rate_ex_discrete": 0.23,
+  "segments": {"Power & Energy": {"sales": 8784, "growth": 0.18, "profit": 2143, "profit_growth": 0.31},
+               "Construction Industries": {"sales": 7983, "growth": 0.18, "profit": 1831, "profit_growth": 0.33},
+               "Resource Industries": {"sales": 4615, "growth": 0.15, "profit": 622, "profit_growth": 0.14},
+               "Financial Products": {"revenue": 1177, "profit": 264}},
+  "north_america_growth": 0.24
+ },
+ "backlog": {"3Q26": 78100, "2Q26": 72100, "beyond_12m": 32600},
+ "outlook_2026_10q": {"sales_growth": "mid-to-high teens (유지)", "q4_sales": "moderate growth YoY", "tariff_cost_ex_ieepa": 2200, "q4_tariff": 600, "restructuring": 300, "capex": 3300, "tax_rate": 0.23,
+   "q4_ci": "비슷한 매출(딜러 재고 약 $1.6B 감소, 전년 $0.6B)", "q4_pe": "moderate 성장, 증설 진행"},
+ "balance_20260930": {"cash": 7929, "mpe_debt_lt": 10614, "mpe_debt_current": 36, "fp_debt_lt": 21552, "fp_debt_current": 8144, "fp_st_borrowings": 4855, "customer_advances": 5329, "customer_advances_2025": 3314, "equity": 21482, "total_assets": 106843},
+ "shares_outstanding": {"2026-09-30": 457.594},
+ "events": {"2026-10-31": "John Fabick Tractor(딜러) 인수 완료, 현금 $1.24B + 유보 $0.165B", "2026-02-17": "RPMGlobal 인수(광산 소프트웨어)", "2026-10": "분기배당 $1.63 유지", "2026-02-20": "미 대법원 IEEPA 관세 위법 판결 → 환급"}
+}

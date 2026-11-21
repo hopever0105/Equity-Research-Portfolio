@@ -1,0 +1,37 @@
+{
+  "note": "SEC EDGAR companyfacts(XBRL)와 8-K Ex.99.1에서 2026-08-20까지 제출된 값만. 회계연도는 6월 말 마감(FY2026 = 2025-06-29~2026-06-27). 단위 $M(주식수 백만주, EPS $). 2026-11-04 앱 브라우저로 수집.",
+  "sources": {
+    "10-K FY2026": "0001628280-26-057358 (2026-08-17)",
+    "8-K 4Q FY26 실적": "0001628280-26-055726 (2026-08-11) lite_ex991xq4fy26.htm",
+    "8-K NVIDIA 우선주": "0001193125-26-085412 (2026-03-02) Item 3.02, Ex.99.1"
+  },
+  "annual": {
+    "revenue": {"FY2023": 1767.0, "FY2024": 1359.2, "FY2025": 1645.0, "FY2026": 3014.0},
+    "gaap_op_income": {"FY2023": -115.7, "FY2024": -434.0, "FY2025": -180.1, "FY2026": 524.8},
+    "net_income": {"FY2023": -131.6, "FY2024": -546.5, "FY2025": 25.9, "FY2026": -6935.1},
+    "loss_on_debt_extinguishment": {"FY2026": -7756.6},
+    "eps_diluted": {"FY2023": -1.93, "FY2024": -8.12, "FY2025": 0.37, "FY2026": -92.96},
+    "cfo": {"FY2024": 24.7, "FY2025": 126.3, "FY2026": 751.4},
+    "capex": {"FY2024": 133.0, "FY2025": 231.0, "FY2026": 451.3},
+    "sbc": {"FY2025": 177.2, "FY2026": 170.2},
+    "nongaap": {"FY2025": {"net_income": 146.4, "eps": 2.06, "op_margin": 0.097, "gross_margin": 0.347, "diluted_shares": 71.2},
+                "FY2026": {"net_income": 782.3, "eps": 8.67, "op_margin": 0.298, "gross_margin": 0.460, "diluted_shares": 90.2, "adj_ebitda": 1025.8}},
+    "segments": {"FY2025": {"Components": 1116.3, "Systems": 528.7}, "FY2026": {"Components": 2005.6, "Systems": 1008.4}}
+  },
+  "quarterly_FY2026": {
+    "revenue": {"1Q": 533.8, "2Q": 665.5, "3Q": 808.4, "4Q": 1006.3},
+    "note_revenue": "1Q·2Q는 원본 리포트 값(각 분기 보도자료), 3Q·4Q는 4Q 보도자료. 1Q+2Q+3Q+4Q = 3,014.0(10-K)와 일치",
+    "nongaap_op_margin": {"1Q": 0.187, "2Q": 0.252, "3Q": 0.322, "4Q": 0.366},
+    "nongaap_eps": {"1Q": 1.10, "2Q": 1.67, "3Q": 2.37, "4Q": 3.23},
+    "gaap_op_income": {"1Q": 6.7, "2Q": 64.3, "3Q": 174.5, "4Q": 279.3},
+    "net_income": {"1Q": 4.2, "2Q": 78.2, "3Q": 144.2, "4Q": -7161.7},
+    "4Q": {"nongaap_net_income": 326.3, "diluted_shares_gaap": 84.6, "diluted_shares_nongaap": 101.1, "adj_ebitda": 406.4, "gaap_gm": 0.474, "nongaap_gm": 0.504,
+           "Components": 649.4, "Systems": 356.9}
+  },
+  "balance_2026_06_27": {"cash": 2043.5, "short_term_investments": 694.9, "assets": 7307.5, "liabilities": 2663.6, "equity": 4643.9,
+                         "debt_current": 1596.9, "debt_noncurrent": 40.5, "shares_outstanding": 88.6, "shares_cover_2026-08-14": 89.7},
+  "nvidia_preferred": {"date": "2026-03-02", "shares": 2876415, "price": 695.31, "amount": 2000.0, "type": "Series A Convertible Preferred"},
+  "guide_1Q_FY27": {"revenue": [1225, 1275], "nongaap_op_margin": [0.395, 0.405], "nongaap_eps": [4.05, 4.35]},
+  "price": {"2026-08-19_close": 827.60, "2026-08-20_close": 879.28, "2026-08-14_close": 926.14, "52w_high_intraday": [1085.68, "2026-05-12"], "52w_low_intraday": [115.21, "2025-08-21"], "source": "stock_db us_price"},
+  "rf_ust10y": {"2026-08-19": 4.65, "source": "FRED DGS10"}
+}

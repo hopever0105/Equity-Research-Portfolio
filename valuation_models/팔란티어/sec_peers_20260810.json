@@ -1,0 +1,10 @@
+{
+  "note": "SEC companyfacts(XBRL), 2026-08-10까지 제출분. TTM = 최근 4개 분기 합(10-K 4분기는 연간-9개월). 단위 $. CRWD·DDOG는 매출 태그·주식수(클래스별)를 뽑지 못해 제외(2026-11-05 수집, 앱 브라우저).",
+  "peers": {
+    "NOW": {"name": "ServiceNow", "ttm_end": "2026-06-30", "rev_ttm": 14732000000, "rev_prev": 12057000000, "cfo_ttm": 5308000000, "capex_ttm": 728000000, "sbc_ttm": 2185000000, "op_ttm": 1680000000,
+            "cash": 2503000000, "sti": 2161000000, "lti": 2043000000, "debt": 5435000000, "shares": 1034000000, "shares_date": "2026-06-30"},
+    "PANW": {"name": "Palo Alto Networks", "ttm_end": "2026-04-30", "rev_ttm": 10606500000, "rev_prev": 8874500000, "cfo_ttm": 4217000000, "capex_ttm": 423200000, "sbc_ttm": 1668100000, "op_ttm": 1019900000,
+             "cash": 2364000000, "sti": 747000000, "lti": 3881000000, "debt": 1352000000, "shares": 815000000, "shares_date": "2026-05-26"}
+  },
+  "pltr_ttm": {"ttm_end": "2026-06-30", "rev_ttm": 6155941000, "rev_prev": 3440587000, "cfo_ttm": 3400291000, "capex_ttm": 42019000, "sbc_ttm": 835524000, "op_ttm": 2634652000, "ni_ttm": 3016692000}
+}

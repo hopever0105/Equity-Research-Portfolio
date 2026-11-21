@@ -1,0 +1,41 @@
+{
+ "note": "SEC EDGAR. 2026-07-01 텍사스 이전 합병으로 상장사가 ExxonMobil Holdings Corporation(CIK 0002115436)으로 바뀜(1:1 교환, 티커 XOM 유지, 옛 CIK 0000034088). 2026-11-09까지 제출된 값만. 단위 $M(주식수 백만주, EPS $). 2026-11-10 앱 브라우저로 수집.",
+ "sources": {"8-K 07-01 (옛 법인)": "0001193125-26-291986 Redomiciliation Merger", "10-Q 2Q26": "2026-08-03", "8-K 3Q26 실적": "0002115436-26-000018 (2026-10-30) livef8k3q26991.htm", "10-Q 3Q26": "0002115436-26-000020 (2026-11-02)"},
+ "annual": {
+  "revenue": {"2022": 413680, "2023": 344582, "2024": 349585, "2025": 332238},
+  "net_income": {"2022": 55740, "2023": 36010, "2024": 33680, "2025": 28844},
+  "eps_diluted": {"2022": 13.26, "2023": 8.89, "2024": 7.84, "2025": 6.70},
+  "cfo": {"2022": 76797, "2023": 55369, "2024": 55022, "2025": 51970},
+  "capex": {"2022": 18407, "2023": 21919, "2024": 24306, "2025": 28358},
+  "da": {"2022": 24040, "2023": 20641, "2024": 23442, "2025": 25993},
+  "buyback": {"2022": 15155, "2023": 17748, "2024": 19629, "2025": 20273},
+  "dividends": {"2022": 14939, "2023": 14941, "2024": 16704, "2025": 17231}
+ },
+ "quarterly": {
+  "revenue": {"1Q25": 83130, "2Q25": 81506, "3Q25": 85294, "4Q25": 82308, "1Q26": 85138, "2Q26": 116017, "3Q26": 113164},
+  "net_income": {"1Q25": 7713, "2Q25": 7082, "3Q25": 7548, "4Q25": 6501, "1Q26": 4183, "2Q26": 14525, "3Q26": 15413},
+  "eps_diluted": {"1Q25": 1.76, "2Q25": 1.64, "3Q25": 1.76, "4Q25": 1.54, "1Q26": 1.00, "2Q26": 3.48, "3Q26": 3.72},
+  "adj_eps": {"2Q26": 3.52, "3Q26": 4.23},
+  "note": "4Q25 = 연간 − 9M. 1Q26 순이익 4,183은 일회성 항목 포함(조정 9M26 40,957 vs GAAP 34,121)"
+ },
+ "ytd_9m": {
+  "2026": {"revenue": 314319, "net_income": 34121, "adj_earnings": 40957, "eps": 8.18, "adj_eps": 9.82, "cfo": 57910, "capex": 20175, "da": 22263, "buyback": 15110, "dividends": 12897},
+  "2025": {"revenue": 249930, "net_income": 22343, "adj_earnings": 22457, "eps": 5.16, "adj_eps": 5.19, "cfo": 39291, "capex": 20908, "da": 18278, "buyback": 14894, "dividends": 12865}
+ },
+ "segments_adj_9m": {
+  "2026": {"Upstream": 22762, "Energy Products": 15951, "Chemical Products": 2049, "Specialty Products": 2903, "Corporate": -2708},
+  "2025": {"Upstream": 17511, "Energy Products": 3963, "Chemical Products": 1081, "Specialty Products": 2175, "Corporate": -2273}
+ },
+ "segments_adj_q": {
+  "3Q26": {"Upstream": 7308, "Energy Products": 9053, "Chemical Products": 725, "Specialty Products": 1283, "Corporate": -864, "total": 17505},
+  "2Q26": {"Upstream": 9189, "Energy Products": 4099, "Chemical Products": 1214, "Specialty Products": 969, "Corporate": -791, "total": 14680}
+ },
+ "volumes": {"upstream_koebd": {"3Q26": 4496, "2Q26": 4514, "9M26": 4534, "9M25": 4651}, "energy_products_kbd": {"3Q26": 5753, "2Q26": 5698}},
+ "q3_26_press": {"cfo": 25700, "fcf": 19100, "distributions": 9400, "dividends": 4300, "buyback": 5100, "q4_dividend": 1.07, "dividend_years": 44, "buyback_2027": 20000,
+   "structural_savings_since_2019": 16900, "net_debt": 22100, "total_debt": 34300, "cash": 12200, "ytd_net_debt_reduction": 11000,
+   "highlights": ["Papua LNG 운영권 인수, Papua LNG 지분 34%·모잠비크 Rovuma 50%로 확대 합의", "가이아나·Kearl 누적 10억 배럴, PNG LNG 1억 톤", "Nucor CCS 가동, Rose 탄소저장 승인"]},
+ "market_10q": "호르무즈 해협 공급 제한에도 정제설비 손실로 원유 수요가 줄어 유가는 10년 범위 안. 정제마진은 10년 범위를 넘는 역사적 고점, 화학 마진은 10년 범위 하단 아래.",
+ "balance_20260930": {"cash": 12153, "debt_current": 4523, "debt_lt": 29727, "equity": 265789},
+ "shares_outstanding": {"2026-09-30": 4079.2, "2026-06-30": 4111.9},
+ "diluted_shares_3q26": 4138
+}

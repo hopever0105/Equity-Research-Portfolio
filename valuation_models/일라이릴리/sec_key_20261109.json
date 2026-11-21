@@ -1,0 +1,37 @@
+{
+ "note": "SEC EDGAR companyfacts·8-K 3Q26 보도자료(2026-10-29)·10-Q 3Q26(2026-10-29)에서 2026-11-09까지 제출된 값만. 단위 $M(주식수 백만주, EPS $). 2026-11-10 앱 브라우저로 수집.",
+ "sources": {"8-K 3Q26 실적": "0000059478-26-000104 (2026-10-29) q326lillysalesandearningsp.htm", "10-Q 3Q26": "0000059478-26-000108 (2026-10-29)"},
+ "annual": {
+  "revenue": {"2022": 28541, "2023": 34124, "2024": 45043, "2025": 65179},
+  "net_income": {"2022": 6245, "2023": 5240, "2024": 10590, "2025": 20640},
+  "eps_diluted": {"2022": 6.90, "2023": 5.80, "2024": 11.71, "2025": 22.95},
+  "cfo": {"2022": 7084, "2023": 4240, "2024": 8818, "2025": 16813},
+  "buyback": {"2022": 1500, "2023": 750, "2024": 2500, "2025": 4108},
+  "diluted_shares_wavg": {"2022": 905, "2023": 903, "2024": 904, "2025": 899}
+ },
+ "quarterly": {
+  "revenue": {"1Q25": 12729, "2Q25": 15558, "3Q25": 17601, "4Q25": 19291, "1Q26": 19799, "2Q26": 22974, "3Q26": 24397},
+  "net_income": {"1Q25": 2759, "2Q25": 5661, "3Q25": 5583, "4Q25": 6637, "1Q26": 7396, "2Q26": 7095, "3Q26": 6451},
+  "eps_diluted": {"1Q25": 3.06, "2Q25": 6.29, "3Q25": 6.21, "4Q25": 7.39, "1Q26": 8.26, "2Q26": 7.94, "3Q26": 7.22},
+  "eps_nongaap": {"3Q26": 7.48, "3Q25": 7.02},
+  "ipr_d_per_share": {"3Q26": 4.57, "3Q25": 0.71},
+  "diluted_shares_wavg": {"3Q26": 893},
+  "note": "4Q25 = 연간 − 9M"
+ },
+ "q3_26_press": {
+  "revenue_growth": 0.39, "volume": 0.53, "price": -0.15, "us_rev": 15100, "us_growth": 0.34, "ex_us_rev": 9300, "ex_us_growth": 0.47, "one_off_benefit": 900, "jardiance_milestone": 410,
+  "gross_margin_nongaap": 0.844, "rd": 4247, "rd_growth": 0.23, "msa": 3125, "ipr_d": 4181, "op_income": 8608, "tax_nongaap": 0.24,
+  "products_3q": {"Mounjaro": [10723, 0.65], "Zepbound": [5352, 0.49], "Jaypirca": [228, 0.59], "Ebglyss": [202, 0.59], "Kisunla": [193, 1.75], "Omvoh": [114, 0.76], "Foundayo": [184, null], "Inluriyo": [73, null]},
+  "products_9m": {"Mounjaro": [29328, 15556], "Zepbound": [14440, 9281]},
+  "bd": ["AtaiBeckley 인수 완료(3Q, 치료저항성 우울증)", "Curevo", "Merida Biosciences 인수 완료(분기 후, 자가면역·알레르기)"],
+  "regulatory": ["Mounjaro 2형 당뇨 심혈관 위험 감소 FDA 승인", "Onswik(주 1회 기저 인슐린) FDA 승인", "Inluriyo+Verzenio 유방암 FDA 승인", "Jaypirca CLL 1차 치료 확대"],
+  "pipeline": ["레타트루타이드 vs 오젬픽 2mg 3상(2형 당뇨) 긍정적", "EloraTZP 2상(비만+2형 당뇨), 4Q 3상 시작"]
+ },
+ "ytd_9m26": {"revenue": 67170, "revenue_9m25": 45887, "cost_of_sales": 10778, "rd": 11576, "msa": 9489, "ipr_d": 7541, "ipr_d_9m25": 2381, "special": 1285, "op_income": 26501, "op_income_9m25": 17927, "net_income": 20942, "eps": 23.42},
+ "guidance_2026": {
+  "20261029": {"revenue": [91000, 92000], "perf_margin": [0.52, 0.525], "tax": [0.19, 0.20], "eps": [35.00, 36.00], "shares": 894, "note": "실적 EPS는 3Q까지 발생한 인수 IPR&D 포함, 10-01 이후 IPR&D는 미포함"},
+  "prior": {"revenue": [85000, 87000], "perf_margin": [0.49, 0.505], "tax": [0.18, 0.19], "eps": [35.50, 36.50]}
+ },
+ "balance_20260930": {"cash": 4885, "debt_lt": 46986, "debt_current": 2517},
+ "dividend_q": 1.73
+}
